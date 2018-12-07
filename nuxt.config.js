@@ -14,9 +14,16 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Open+Sans' }
     ]
   },
+  //<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+  // server: {
+  //   port: 3333, // default: 3000
+  //   host: '0.0.0.0', // default: localhost
+  // },
 
   /*
   ** Customize the progress-bar color
@@ -49,7 +56,7 @@ module.exports = {
     ** You can extend webpack config here
     */
     extend(config, ctx) {
-      
+
     }
   }
 }
