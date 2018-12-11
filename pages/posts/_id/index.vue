@@ -1,5 +1,5 @@
 <template>
-  <div class="single-post">
+  <div class="single-post-page">
     <section class="post">
       <h1 class="post-title">Post title</h1>
       <div class="post-details">
